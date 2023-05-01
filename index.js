@@ -29,5 +29,9 @@ const server = () => {
     })
     }
 
+    app.get("/", function (request, response) {
+        response.send("🙋‍♂️, 🌏 🎊✨🤩 !!!!");
+      });
+
 server()
 
